@@ -1,8 +1,8 @@
 
-const fortunesArray = `fortunes.json`
+const fortunesArray = "fortunes.json"
 //const fetch = require('node-fetch')
 
-const getFortune = async () => {
+const getFortune = () => {
     const rand = Math.floor(Math.random() * fortunesArray)
     return getFortune(rand)
 

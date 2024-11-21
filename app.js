@@ -6,7 +6,7 @@
     const fortunes = require('./fortunes.json')
     console.log(fortunes)
 
-    const getRanbomFortune = await getFortune()
+    const getRanbomFortune = getFortune()
 
     console.log(getRanbomFortune.fortunes)
 
