@@ -1,10 +1,10 @@
 
-const fortunesArray = 7
+const fortunesArray = './fortunes.json'
 //const fetch = require('node-fetch')
 
 const getFortune = async () => {
-    const rand = Math.floor(Math.random() * fortunesArray) + 1
-    return (rand)
+    const rand = Math.floor(Math.random() * fortunesArray.length) + 1
+    return fortunesArray[rand]
 }
 
 // const getFortuneByNumber = async number => {
